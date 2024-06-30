@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manage Budget</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Include any necessary CSS -->
+</head>
+<body>
+    <div class="Budget">
+        <h1>Budget</h1>
+    <!-- Display budget information and controls -->
+    <div class="budget-card">
+        <p>Current Budget: $1000</p>
+    <form action="update_budget_handler.php" method="POST">
+        <label for="new_budget">New Budget Amount:</label>
+        <input type="text" id="new_budget" name="new_budget" required><br><br>
+        
+        <button type="submit">Update Budget</button>
+    </form>
+    </div>
+    </div>
+    <!-- Include any necessary JavaScript -->
+</body>
+</html>

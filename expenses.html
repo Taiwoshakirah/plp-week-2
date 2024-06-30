@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manage Expenses</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Include any necessary CSS -->
+</head>
+<body>
+   <div class="expense">
+    <h1>Expenses</h1>
+    <!-- List of expenses fetched from backend -->
+   <div class="expense-card">
+    <ul>
+        <li>Expense 1</li>
+        <li>Expense 2</li>
+        <!-- Display more expenses dynamically -->
+    </ul>
+    <!-- Form to add new expenses -->
+    <form action="add_expense_handler.php" method="POST">
+        <label for="amount">Amount:</label>
+        <input type="text" id="amount" name="amount" required><br><br>
+        
+        <label for="category">Category:</label>
+        <select id="category" name="category">
+            <option value="food">Food</option>
+            <option value="transport">Transport</option>
+            <!-- Add more categories dynamically -->
+        </select><br><br>
+        
+        <button type="submit">Add Expense</button>
+    </form>
+   </div>
+   </div>
+    <!-- Include any necessary JavaScript -->
+</body>
+</html>

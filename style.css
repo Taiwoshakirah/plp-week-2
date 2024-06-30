@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .register-card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+ }
+ .user{
+    display: flex;
+    flex-direction: column;
+    
+ }
+ .user input{
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 10px;
+ }
+ .user label{
+    margin-right: 330px;
+    color: white;
+ }
+
+ .mail{
+    display: flex;
+    flex-direction: column;
+    
+ }
+ .mail input{
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 10px;
+ }
+ .mail label{
+    margin-right: 350px;
+    color: white;
+ }
+ .password{
+    display: flex;
+    flex-direction: column;
+    
+ }
+ .password input{
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 10px;
+ }
+ .password label{
+    margin-right: 330px;
+    color: white;
+ }
+ .registration{
+    padding-bottom: 25px;
+ }
+ .form button{
+    width: 300px;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+ }
+ .form button:hover{
+    cursor: pointer;
+ }
+ .form{
+    background-color: black;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+ }
+
+ /* /////////login//////////////// */
+
+ .login-card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .user-login{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .user-login input{
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 10px;
+ }
+ .user-login label{
+    margin-right: 330px;
+    color: white;
+ }
+ .user-password{
+    display: flex;
+    flex-direction: column;
+ }
+ 
+
+ .user-password input{
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 10px;
+ }
+
+ .user-password label{
+    margin-right: 330px;
+    color: white;
+ }
+ .form-login{
+    background-color: black;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+ }
+.form-login button{
+    width: 300px;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+}
+.login-card a{
+    text-align: start;
+    padding: 20px;
+}
+.login-card h1{
+    padding-bottom: 30px;
+}
+/* ////////////expenses////////// */
+.expense{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.expense h1{
+    padding-bottom: 20px;
+}
+.expense-card{
+    background-color: black;
+    color: white;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 20px;
+}
+.expense-card button{
+    background-color: blueviolet;
+    width: 200px;
+    padding: 8px;
+    color: white;
+    border-radius: 20px;
+}
+.form button:hover{
+    cursor: pointer;
+}
+.category-card{
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;  
+    
+}
+.categories{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+.categories ul{
+    text-decoration: none;
+}
+.category-card button{
+    background-color: blueviolet;
+    width: 200px;
+    padding: 8px;
+    color: white;
+    border-radius: 20px;
+    
+}
+.category-card h1{
+    padding-bottom: 30px;
+}
+/* //////////budget//// */
+.Budget{
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.budget-card{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.budget-card button{
+    background-color: blueviolet;
+    color: white;
+    width: 50%;
+    padding: 8px;
+    border-radius: 20px;
+}
+.budget-card button:hover{
+    cursor: pointer;
+
+}
+/* ////////index///// */
+.index{
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.index ul li{
+    list-style: none;
+}
+.index ul li a{
+    text-decoration: none;
+    color: white;
+}
+.index a{
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+}
+.authenticate{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.index ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    
+}
+.index-card{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}

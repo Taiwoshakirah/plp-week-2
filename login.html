@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login to Expense Tracker</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Include any necessary CSS -->
+</head>
+<body>
+    <div class="login-card">
+        <a href="registration.html"><button>Signup</button></a>
+        <h1>Login</h1>
+        
+    <form class="form-login" action="login_handler.php" method="POST">
+        <div class="user-login">
+            <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        </div>
+        <div class="user-password">
+            <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        </div>
+        
+        <button type="submit">Login</button>
+    </form>
+    </div>
+    <!-- Include any necessary JavaScript -->
+</body>
+</html>
